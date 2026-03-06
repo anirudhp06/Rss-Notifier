@@ -1,26 +1,129 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Rss Notifier</title>
+        <title>RHEL OS Updates</title>
+        <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/mind.js"></script>
     </head>
-    <body>
+
+    <body id="body">
         <center>
-        <table class="table table-sm table-hover" style="width: 70%;">
-            <tr>
-                <th>Name</th>
-                <th>Roll</th>
-            </tr>
-            <tr>
-                <td>ABCD</td>
-                <td>12345</td>
-            </tr>
-            <tr>
-                <td>EFGH</td>
-                <td>6789</td>
-            </tr>
-        </table>
-        </center>
-    </body>
-</html>
+            <h1>RHEL New Update for week 06-03-26 </h1>
+            <table id="resizable-table" border="1" cellpadding="5" cellspacing="0"
+                   class="table table-sm table-hover">
+                <tr>
+                    <th>#</th>
+                    <th>RHSA Name</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                    <th>Published Date</th>
+                    <th><button type="button" id="mode" class="btn btn-light btn-sm" onclick="set_mode()"></button><break></th>
+                </tr>
+<tr><td>1</td><td>RHSA-2026:3810: Important: kernel security update</td><td>An update for kernel is now available for Red Hat Enterprise Linux 6 Extended Lifecycle Support  - EXTENSION.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3810 target="_blank">https://access.redhat.com/errata/RHSA-2026:3810</a></td><td>Thu, 05 Mar 2026 03:22:49 +0000</td><td></td><td></td></tr><tr><td>2</td><td>RHSA-2026:3391: Important: OpenShift Container Platform 4.19.25 packages and security update</td><td>Red Hat OpenShift Container Platform release 4.19.25 is now available with
+updates to packages and images that fix several bugs and add enhancements.
+
+This release includes a security update for Red Hat OpenShift Container
+Platform 4.19.
+
+Red Hat Product Security has rated this update as having a security impact
+of Important. A Common Vulnerability Scoring System (CVSS) base score,
+which gives a detailed severity rating, is available for each vulnerability
+from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3391 target="_blank">https://access.redhat.com/errata/RHSA-2026:3391</a></td><td>Wed, 04 Mar 2026 15:54:04 +0000</td><td></td><td></td></tr><tr><td>3</td><td>RHSA-2026:3753: Important: osbuild-composer security update</td><td>An update for osbuild-composer is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3753 target="_blank">https://access.redhat.com/errata/RHSA-2026:3753</a></td><td>Wed, 04 Mar 2026 15:52:29 +0000</td><td></td><td></td></tr><tr><td>4</td><td>RHSA-2026:3392: Important: OpenShift Container Platform 4.19.25 bug fix and security update</td><td>Red Hat OpenShift Container Platform release 4.19.25 is now available with
+updates to packages and images that fix several bugs and add enhancements.
+
+ This release includes a security update for Red Hat OpenShift Container
+Platform 4.19.
+
+Red Hat Product Security has rated this update as having a security impact
+of Important. A Common Vulnerability Scoring System (CVSS) base score,
+which gives a detailed severity rating, is available for each vulnerability
+from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3392 target="_blank">https://access.redhat.com/errata/RHSA-2026:3392</a></td><td>Wed, 04 Mar 2026 15:36:49 +0000</td><td></td><td></td></tr><tr><td>5</td><td>RHSA-2026:3752: Important: osbuild-composer security update</td><td>An update for osbuild-composer is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3752 target="_blank">https://access.redhat.com/errata/RHSA-2026:3752</a></td><td>Wed, 04 Mar 2026 15:29:36 +0000</td><td></td><td></td></tr><tr><td>6</td><td>RHSA-2026:3730: Important: postgresql security update</td><td>An update for postgresql is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3730 target="_blank">https://access.redhat.com/errata/RHSA-2026:3730</a></td><td>Wed, 04 Mar 2026 14:32:11 +0000</td><td></td><td></td></tr><tr><td>7</td><td>RHSA-2026:3416: Important: OpenShift Container Platform 4.17.50 packages and security update</td><td>Red Hat OpenShift Container Platform release 4.17.50 is now available with updates to packages and images that fix several bugs and add enhancements.
+
+This release includes a security update for Red Hat OpenShift Container Platform 4.17.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3416 target="_blank">https://access.redhat.com/errata/RHSA-2026:3416</a></td><td>Wed, 04 Mar 2026 09:07:15 +0000</td><td></td><td></td></tr><tr><td>8</td><td>RHSA-2026:3417: Important: OpenShift Container Platform 4.17.50 bug fix and security update</td><td>Red Hat OpenShift Container Platform release 4.17.50 is now available with updates to packages and images that fix several bugs and add enhancements.
+
+This release includes a security update for Red Hat OpenShift Container Platform 4.17.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3417 target="_blank">https://access.redhat.com/errata/RHSA-2026:3417</a></td><td>Wed, 04 Mar 2026 08:55:38 +0000</td><td></td><td></td></tr><tr><td>9</td><td>RHSA-2026:3699: Important: yggdrasil-worker-package-manager security update</td><td>An update for yggdrasil-worker-package-manager is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3699 target="_blank">https://access.redhat.com/errata/RHSA-2026:3699</a></td><td>Wed, 04 Mar 2026 05:15:19 +0000</td><td></td><td></td></tr><tr><td>10</td><td>RHSA-2026:3692: Moderate: kernel security update</td><td>An update for kernel is now available for Red Hat Enterprise Linux 9.4 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3692 target="_blank">https://access.redhat.com/errata/RHSA-2026:3692</a></td><td>Wed, 04 Mar 2026 01:01:24 +0000</td><td></td><td></td></tr><tr><td>11</td><td>RHSA-2026:3685: Important: kernel security update</td><td>An update for kernel is now available for Red Hat Enterprise Linux 7 Extended Lifecycle Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3685 target="_blank">https://access.redhat.com/errata/RHSA-2026:3685</a></td><td>Tue, 03 Mar 2026 20:57:40 +0000</td><td></td><td></td></tr><tr><td>12</td><td>RHSA-2026:3668: Important: go-rpm-macros security update</td><td>An update for go-rpm-macros is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3668 target="_blank">https://access.redhat.com/errata/RHSA-2026:3668</a></td><td>Tue, 03 Mar 2026 16:17:02 +0000</td><td></td><td></td></tr><tr><td>13</td><td>RHSA-2026:3669: Important: go-rpm-macros security update</td><td>An update for go-rpm-macros is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3669 target="_blank">https://access.redhat.com/errata/RHSA-2026:3669</a></td><td>Tue, 03 Mar 2026 15:33:23 +0000</td><td></td><td></td></tr><tr><td>14</td><td>RHSA-2026:3577: Important: libpng security update</td><td>An update for libpng is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3577 target="_blank">https://access.redhat.com/errata/RHSA-2026:3577</a></td><td>Tue, 03 Mar 2026 12:51:32 +0000</td><td></td><td></td></tr><tr><td>15</td><td>RHSA-2026:3638: Moderate: nginx:1.24 security update</td><td>An update for the nginx:1.24 module is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3638 target="_blank">https://access.redhat.com/errata/RHSA-2026:3638</a></td><td>Tue, 03 Mar 2026 11:35:14 +0000</td><td></td><td></td></tr><tr><td>16</td><td>RHSA-2026:3634: Important: kernel-rt security update</td><td>An update for kernel-rt is now available for Red Hat Enterprise Linux 7 Extended Lifecycle Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3634 target="_blank">https://access.redhat.com/errata/RHSA-2026:3634</a></td><td>Tue, 03 Mar 2026 09:54:06 +0000</td><td></td><td></td></tr><tr><td>17</td><td>RHSA-2026:3576: Important: libpng security update</td><td>An update for libpng is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3576 target="_blank">https://access.redhat.com/errata/RHSA-2026:3576</a></td><td>Tue, 03 Mar 2026 01:15:24 +0000</td><td></td><td></td></tr><tr><td>18</td><td>RHSA-2026:3574: Important: libpng security update</td><td>An update for libpng is now available for Red Hat Enterprise Linux 9.4 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3574 target="_blank">https://access.redhat.com/errata/RHSA-2026:3574</a></td><td>Tue, 03 Mar 2026 00:52:00 +0000</td><td></td><td></td></tr><tr><td>19</td><td>RHSA-2026:3575: Important: libpng security update</td><td>An update for libpng is now available for Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3575 target="_blank">https://access.redhat.com/errata/RHSA-2026:3575</a></td><td>Tue, 03 Mar 2026 00:14:50 +0000</td><td></td><td></td></tr><tr><td>20</td><td>RHSA-2026:3579: Moderate: kernel security update</td><td>An update for kernel is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3579 target="_blank">https://access.redhat.com/errata/RHSA-2026:3579</a></td><td>Tue, 03 Mar 2026 00:14:24 +0000</td><td></td><td></td></tr><tr><td>21</td><td>RHSA-2026:3573: Important: libpng security update</td><td>An update for libpng is now available for Red Hat Enterprise Linux 9.0 Update Services for SAP Solutions.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3573 target="_blank">https://access.redhat.com/errata/RHSA-2026:3573</a></td><td>Mon, 02 Mar 2026 19:59:45 +0000</td><td></td><td></td></tr><tr><td>22</td><td>RHSA-2026:3551: Important: libpng security update</td><td>An update for libpng is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3551 target="_blank">https://access.redhat.com/errata/RHSA-2026:3551</a></td><td>Mon, 02 Mar 2026 15:36:28 +0000</td><td></td><td></td></tr><tr><td>23</td><td>RHSA-2026:3529: Important: grafana security update</td><td>An update for grafana is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3529 target="_blank">https://access.redhat.com/errata/RHSA-2026:3529</a></td><td>Mon, 02 Mar 2026 11:51:06 +0000</td><td></td><td></td></tr><tr><td>24</td><td>RHSA-2026:3520: Moderate: kernel security update</td><td>An update for kernel is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3520 target="_blank">https://access.redhat.com/errata/RHSA-2026:3520</a></td><td>Mon, 02 Mar 2026 11:46:17 +0000</td><td></td><td></td></tr><tr><td>25</td><td>RHSA-2026:3516: Important: thunderbird security update</td><td>An update for thunderbird is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3516 target="_blank">https://access.redhat.com/errata/RHSA-2026:3516</a></td><td>Mon, 02 Mar 2026 11:08:39 +0000</td><td></td><td></td></tr><tr><td>26</td><td>RHSA-2026:3517: Important: thunderbird security update</td><td>An update for thunderbird is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3517 target="_blank">https://access.redhat.com/errata/RHSA-2026:3517</a></td><td>Mon, 02 Mar 2026 11:06:17 +0000</td><td></td><td></td></tr><tr><td>27</td><td>RHSA-2026:3515: Important: thunderbird security update</td><td>An update for thunderbird is now available for Red Hat Enterprise Linux 8.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3515 target="_blank">https://access.redhat.com/errata/RHSA-2026:3515</a></td><td>Mon, 02 Mar 2026 10:59:32 +0000</td><td></td><td></td></tr><tr><td>28</td><td>RHSA-2026:3477: Moderate: gnutls security update</td><td>An update for gnutls is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3477 target="_blank">https://access.redhat.com/errata/RHSA-2026:3477</a></td><td>Mon, 02 Mar 2026 09:19:32 +0000</td><td></td><td></td></tr><tr><td>29</td><td>RHSA-2026:3496: Important: firefox security update</td><td>An update for firefox is now available for Red Hat Enterprise Linux 9.4 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3496 target="_blank">https://access.redhat.com/errata/RHSA-2026:3496</a></td><td>Mon, 02 Mar 2026 09:15:42 +0000</td><td></td><td></td></tr><tr><td>30</td><td>RHSA-2026:3507: Important: valkey security update</td><td>An update for valkey is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3507 target="_blank">https://access.redhat.com/errata/RHSA-2026:3507</a></td><td>Mon, 02 Mar 2026 08:05:16 +0000</td><td></td><td></td></tr><tr><td>31</td><td>RHSA-2026:3506: Important: yggdrasil security update</td><td>An update for yggdrasil is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3506 target="_blank">https://access.redhat.com/errata/RHSA-2026:3506</a></td><td>Mon, 02 Mar 2026 06:45:32 +0000</td><td></td><td></td></tr><tr><td>32</td><td>RHSA-2026:3504: Moderate: 389-ds-base security update</td><td>An update for 389-ds-base is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3504 target="_blank">https://access.redhat.com/errata/RHSA-2026:3504</a></td><td>Mon, 02 Mar 2026 06:33:01 +0000</td><td></td><td></td></tr><tr><td>33</td><td>RHSA-2026:3497: Important: firefox security update</td><td>An update for firefox is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3497 target="_blank">https://access.redhat.com/errata/RHSA-2026:3497</a></td><td>Mon, 02 Mar 2026 06:15:46 +0000</td><td></td><td></td></tr><tr><td>34</td><td>RHSA-2026:3495: Important: firefox security update</td><td>An update for firefox is now available for Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support, Red Hat Enterprise Linux 8.6 Update Services for SAP Solutions, and Red Hat Enterprise Linux 8.6 Telecommunications Update Service.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3495 target="_blank">https://access.redhat.com/errata/RHSA-2026:3495</a></td><td>Mon, 02 Mar 2026 05:58:26 +0000</td><td></td><td></td></tr><tr><td>35</td><td>RHSA-2026:3494: Important: firefox security update</td><td>An update for firefox is now available for Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions and Red Hat Enterprise Linux 8.8 Telecommunications Update Service.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3494 target="_blank">https://access.redhat.com/errata/RHSA-2026:3494</a></td><td>Mon, 02 Mar 2026 05:57:51 +0000</td><td></td><td></td></tr><tr><td>36</td><td>RHSA-2026:3493: Important: firefox security update</td><td>An update for firefox is now available for Red Hat Enterprise Linux 9.0 Update Services for SAP Solutions.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3493 target="_blank">https://access.redhat.com/errata/RHSA-2026:3493</a></td><td>Mon, 02 Mar 2026 05:52:16 +0000</td><td></td><td></td></tr><tr><td>37</td><td>RHSA-2026:3492: Important: firefox security update</td><td>An update for firefox is now available for Red Hat Enterprise Linux 8.2 Advanced Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3492 target="_blank">https://access.redhat.com/errata/RHSA-2026:3492</a></td><td>Mon, 02 Mar 2026 05:45:10 +0000</td><td></td><td></td></tr><tr><td>38</td><td>RHSA-2026:3491: Important: firefox security update</td><td>An update for firefox is now available for Red Hat Enterprise Linux 8.4 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.4 Extended Update Support Long-Life Add-On.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</td><td><a href=https://access.redhat.com/errata/RHSA-2026:3491 target="_blank">https://access.redhat.com/errata/RHSA-2026:3491</a></td><td>Mon, 02 Mar 2026 05:44:56 +0000</td><td></td><td></td></tr>                <script>
+                        let dark_mode=document.getElementById("mode");
+                        if (window.matchMedia("(prefers-color-scheme: dark)").matches){
+                            dark_mode.textContent="☀️";
+                            dark_mode.setAttribute("class","btn btn-light btn-sm");
+                        }else{
+                            dark_mode.textContent="🌙";
+                            dark_mode.setAttribute("class","btn btn-dark btn-sm")
+                        }
+                    </script>
+                    </table>
+            </center>
+        </body>
+    </html>
