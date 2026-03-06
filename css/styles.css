@@ -1,0 +1,23 @@
+table {
+    height: 50%;
+    width: 60%;
+    max-width: 800px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    position: relative;
+    font-size: 13px;
+}
+
+th::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: transparent;
+}
